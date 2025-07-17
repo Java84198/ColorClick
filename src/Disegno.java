@@ -22,6 +22,7 @@ public class Disegno extends JFrame {
         JFrame frame = new JFrame("Change Color Panel with Click");
         frame.setSize(300, 300);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLocationRelativeTo(null);
 
 
         JPanel panel = new JPanel();
