@@ -6,15 +6,7 @@ import java.util.Random;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Disegno extends JFrame {
-
-    @Override
-    public void paint(Graphics g) {
-        super.paint(g);
-        g.drawString("Hello World", 100, 100);
-        g.setColor(Color.RED);
-
-    }
+public class Disegno {
 
     public static void main(String[] args)
     {
