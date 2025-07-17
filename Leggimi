@@ -1,0 +1,14 @@
+# Color Change Panel Application
+
+This is a simple Java Swing application that displays a window with a black panel. When the user clicks anywhere on the panel, it randomly changes its background color.
+
+## Features
+- Creates a 300x300 window with a black panel
+- Changes panel color randomly on each mouse click
+- Generates random RGB colors (0-255 for each component)
+
+## Technical Details
+- Built using Java Swing framework
+- Uses JFrame and JPanel for the GUI
+- Implements MouseAdapter for click handling
+- Utilizes Random class for color generation
